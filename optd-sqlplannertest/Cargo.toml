@@ -41,5 +41,6 @@ itertools = "0.13"
 lazy_static = "1.4.0"
 
 [[test]]
-name = "planner_test"
+name = "harness"
+path = "./tests/harness.rs"
 harness = false

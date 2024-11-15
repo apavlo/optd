@@ -3,7 +3,6 @@
 These test cases use the [sqlplannertest](https://crates.io/crates/sqlplannertest) crate to execute SQL queries and inspect their output.
 They do not check whether a plan is correct, and instead rely on a text-based diff of the query's output to determine whether something is different than the expected output.
 
-
 ## Execute Test Cases
 
 ```shell
